@@ -1,7 +1,9 @@
 # Arc-data-management
 A set of python scripts which have been used for GIS data management tasks, primarily using arcpy, python library. The repository contains standalone python scripts divided into separate folders depending on the process.
 
-You can configure the visual studio code to run with python interpreter that comes with ArcGIS Pro clicking [here](https://resources.esri.ca/getting-technical/how-to-configure-visual-studio-code-with-arcgis-pro-s-python-environment). It also possible/good practise to clone the environment.
+You can configure the visual studio code to run with python interpreter that comes with ArcGIS Pro clicking [here](https://resources.esri.ca/getting-technical/how-to-configure-visual-studio-code-with-arcgis-pro-s-python-environment). Following path can is also worth looking into in case you can't find an interpreter path as per the documentation.
+
+C:\Users\someuser\AppData\Local\Programs\ArcGIS\Pro\bin\Python\envs\arcgispro-py3.
 
 Following is an overview of the folders and process involved
 
