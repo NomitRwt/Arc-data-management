@@ -1,7 +1,8 @@
 # Arc-data-management
 A repository containing notes and guides primary related to arcpy.
 
-You can configure the visual studio code to run with python interpreter that comes with ArcGIS Pro clicking [here](https://resources.esri.ca/getting-technical/how-to-configure-visual-studio-code-with-arcgis-pro-s-python-environment). Following path can is also worth looking into in case you can't find an interpreter path as per the documentation.
+## [Configure vscode with arcgis interpreter](https://resources.esri.ca/getting-technical/how-to-configure-visual-studio-code-with-arcgis-pro-s-python-environment)
+Great resource if you want to run standalone scripts or build using the arcgis environment. Can also look at the following path if you can't find the interpreter.
 
 C:\Users\someuser\AppData\Local\Programs\ArcGIS\Pro\bin\Python\envs\arcgispro-py3.
 
