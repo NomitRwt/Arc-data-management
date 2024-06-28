@@ -1,11 +1,17 @@
 # Arc-data-management
-A set of python scripts which have been used for GIS data management tasks, primarily using arcpy, python library. The repository contains standalone python scripts divided into separate folders depending on the process.
+A repository containing notes and guides primary related to arcpy.
 
 You can configure the visual studio code to run with python interpreter that comes with ArcGIS Pro clicking [here](https://resources.esri.ca/getting-technical/how-to-configure-visual-studio-code-with-arcgis-pro-s-python-environment). Following path can is also worth looking into in case you can't find an interpreter path as per the documentation.
 
 C:\Users\someuser\AppData\Local\Programs\ArcGIS\Pro\bin\Python\envs\arcgispro-py3.
 
-Following is an overview of the folders and process involved
+## [Building geoprocessing Tools in arcgis](https://mediaspace.esri.com/media/t/1_z44wd2wj)
+
+Noteworthy points:
+1. Sharing geoprocessing tools across organisation using arcgis online.
+2. Adding input messages for the toolboxes, in the metadata of the tool.
+
+Previous Work
 
 ## [Buffer process automation](https://github.com/NomitRwt/Arc-data-management/tree/main/Buffer_process_automation)
 
