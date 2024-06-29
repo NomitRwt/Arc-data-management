@@ -6,13 +6,19 @@ Great resource if you want to run standalone scripts or build using the arcgis e
 
 C:\Users\someuser\AppData\Local\Programs\ArcGIS\Pro\bin\Python\envs\arcgispro-py3.
 
-## [Building geoprocessing Tools in arcgis](https://mediaspace.esri.com/media/t/1_z44wd2wj)
+## [Video Resource: Building geoprocessing tools in arcgis](https://mediaspace.esri.com/media/t/1_z44wd2wj)
 
 Noteworthy points:
 1. Sharing geoprocessing tools across organisation using arcgis online.
 2. Adding input messages for the toolboxes, in the metadata of the tool.
 
 Previous Work
+
+## [Video Resource: Building geoprocessing tools with python](https://mediaspace.esri.com/media/t/1_mqpjjlpc)
+
+Noteworthy points:
+1. Using feature layer as the data type for the input parameter has advantages.
+2. Setting progressor
 
 ## [Buffer process automation](https://github.com/NomitRwt/Arc-data-management/tree/main/Buffer_process_automation)
 
