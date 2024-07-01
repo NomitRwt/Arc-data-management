@@ -63,3 +63,4 @@ Notes from esri documentation
 # Tutorial
 1. Map of India data sanity check
 2. Updating data (adding population for different states)
+3. Preparing map pdf's
