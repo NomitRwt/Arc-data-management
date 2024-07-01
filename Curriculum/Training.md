@@ -10,6 +10,9 @@ camelCase, PascalCase, snake_case
 ## Setting up vscode with arcgis interpreter
 [Explained here](https://resources.esri.ca/getting-technical/how-to-configure-visual-studio-code-with-arcgis-pro-s-python-environment)
 
+# [What is Arcpy?](https://pro.arcgis.com/en/pro-app/latest/arcpy/get-started/what-is-arcpy-.htm)
+Notes from esri documentation
+
 ## Introduction to arcpy
 1. [Quick tour of arcpy](https://pro.arcgis.com/en/pro-app/latest/arcpy/get-started/a-quick-tour-of-arcpy.htm)
 - Tool vs non-tool
@@ -49,9 +52,13 @@ camelCase, PascalCase, snake_case
 11. [Multiple value parameters](https://pro.arcgis.com/en/pro-app/latest/arcpy/get-started/working-with-multivalue-inputs.htm)
 - Delete fields can use a list of values
 
-## Others
+# Others
 1. Creating point, line and polygon data
 2. Raising arcpy.ExecuteError("Some error")
 3. Spatial query
 4. Joins and relate
 5. Introduction to toolboxes
+
+# Tutorial
+1. Map of India data sanity check
+2. Updating data (adding population for different states)
