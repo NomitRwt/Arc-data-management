@@ -34,6 +34,7 @@ Notes from esri documentation
 - Field delimeters for query language (Not important but good to know)
 6. [Cursors](https://pro.arcgis.com/en/pro-app/latest/arcpy/get-started/data-access-using-cursors.htm)
 - Search, Insert, Update
+- arcpy.da cursors instead of old ones.
 - Cursors using for and with statements. What is the difference?
 - Cursors honor layer and table view definition queries and selections. The cursor object only contains the rows that would be used by any geoprocessing tool during an operation.
 - The OBJECTID@ token can also be used as a shortcut in place of a table's object ID field name, to get the unique ID.
