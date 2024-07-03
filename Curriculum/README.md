@@ -62,6 +62,8 @@ Notes from esri documentation
 5. Introduction to toolboxes
 
 # Tutorial
-1. Map of India data sanity check
-2. Updating data (adding population for different states)
-3. Preparing map pdf's
+1. [Data sanity check](https://github.com/NomitRwt/Arc-data-management/tree/main/Curriculum/Tutorial%201)
+2. [Updating data](https://github.com/NomitRwt/Arc-data-management/tree/main/Curriculum/Tutorial%202)
+3. [Arcgis API for Python: Introduction](https://github.com/NomitRwt/Arc-data-management/tree/main/Curriculum/Training%203)
+4. [Reading and writing geometries](https://github.com/NomitRwt/Arc-data-management/tree/main/Curriculum/Tutorial%204)
+5. [Toolboxes](link)
