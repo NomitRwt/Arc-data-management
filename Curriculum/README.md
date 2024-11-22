@@ -7,21 +7,31 @@
 Primer on syntax
 camelCase, PascalCase, snake_case
 
-## Setting up vscode with arcgis interpreter
-[Explained here](https://resources.esri.ca/getting-technical/how-to-configure-visual-studio-code-with-arcgis-pro-s-python-environment)
+# [Esri Documentation](https://pro.arcgis.com/en/pro-app/latest/arcpy/main/arcgis-pro-arcpy-reference.htm)
+Short notes.
 
-# [What is Arcpy?](https://pro.arcgis.com/en/pro-app/latest/arcpy/get-started/what-is-arcpy-.htm)
-Notes from esri documentation
+# Get Started
+- Arcgis pro python environment comes with arcpy and along with it some other libraries.
+- While `pip` is de-facto standard when managing libraries when exclusively in python. Arcgis pro uses conda as the package manager.
+- Run a stand-alone python script using the command `c:\Progra~1\ArcGIS\Pro\bin\Python\scripts\propy.bat path_tp_your_script\my_script.py`
+- How is using `propy.bat` benefitial
+  - This is why you use propy.bat: it determines the application’s active conda environment and activates it in your stand-alone script.
+- While the `c:\Progra~1\ArcGIS\Pro\bin\Python\envs\arcgispro-py3\python.exe` is the default path.
+- Third party libraries used in are available [here](https://pro.arcgis.com/en/pro-app/latest/arcpy/get-started/available-python-libraries.htm)
 
-## Introduction to arcpy
-1. [Quick tour of arcpy](https://pro.arcgis.com/en/pro-app/latest/arcpy/get-started/a-quick-tour-of-arcpy.htm)
-- Tool vs non-tool
-- Return values
-2. [Essential vocabulary](https://pro.arcgis.com/en/pro-app/latest/arcpy/get-started/essential-arcpy-vocabulary.htm)
-3. [Package manager](https://pro.arcgis.com/en/pro-app/latest/arcpy/get-started/what-is-conda.htm)
+## [What is Arcpy?](https://pro.arcgis.com/en/pro-app/latest/arcpy/get-started/what-is-arcpy-.htm)
+- Tool vs non-tool not found in standard toolbox, example can be utility functions like `ListFeatureClasses()`
+- Tools return a result object
+- Messages from running tools can be accessed using `GetMessages()` function.
+- Similar to environment settings in toolbox interface we can set them in script itself.
+- Also provides classes for setting spatial reference, extent and field mappings.
+- Modular division of code similar to toolbox.
+- Can add arcpy in an environment `conda install arcpy=3.4 -c esri`.
+- Can also use a base version of arcpy that offers only bare minimum required libraries, `conda create -n my-env arcpy-base`.
 
 ## Working with data
 1. [Describing data](https://pro.arcgis.com/en/pro-app/latest/arcpy/get-started/describing-data.htm)
+- Describe properties such as whether the feature class is a polygon, polyline or point.
 2. [List fields as opposed to describe](https://pro.arcgis.com/en/pro-app/latest/arcpy/get-started/fields-and-indexes.htm)
 - Important properties of field object
 - Name and Type.
