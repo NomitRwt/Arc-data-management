@@ -1,4 +1,4 @@
-## Idea
+## Pre-requisites, Data, Preprocessing
 
 Tedious to do the geoprocessing operations manually.
 
