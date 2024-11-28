@@ -1,14 +1,5 @@
-# Python pre-requisites
-1. Variables, data type
-2. Control flow, looping
-3. Object oriented programming (good to know!)
-4. Data structures and algorithms (what not to do!)
-
-Primer on syntax
-camelCase, PascalCase, snake_case
-
-# [Esri Documentation](https://pro.arcgis.com/en/pro-app/latest/arcpy/main/arcgis-pro-arcpy-reference.htm)
-Short notes.
+# [Notes: Esri Documentation](https://pro.arcgis.com/en/pro-app/latest/arcpy/main/arcgis-pro-arcpy-reference.htm)
+An example is using ArcPy to manage local data, adding it as layers to a map, and using geoprocessing tools to create outputs and service definition files. ArcGIS API for Python can then be used to publish the definition files to the Web GIS, compose a web map, or share those layers with others.
 
 # Get Started
 - Arcgis pro python environment comes with arcpy and along with it some other libraries.
@@ -70,10 +61,3 @@ Short notes.
 3. Spatial query
 4. Joins and relate
 5. Introduction to toolboxes
-
-# Tutorial
-1. [Data sanity check](https://github.com/NomitRwt/Arc-data-management/tree/main/Curriculum/Tutorial%201)
-2. [Updating data](https://github.com/NomitRwt/Arc-data-management/tree/main/Curriculum/Tutorial%202)
-3. [Arcgis API for Python: Introduction](https://github.com/NomitRwt/Arc-data-management/tree/main/Curriculum/Training%203)
-4. [Reading and writing geometries](https://github.com/NomitRwt/Arc-data-management/tree/main/Curriculum/Tutorial%204)
-5. [Toolboxes](link)
