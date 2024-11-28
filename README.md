@@ -12,15 +12,13 @@ Noteworthy points:
 1. Sharing geoprocessing tools across organisation using arcgis online.
 2. Adding input messages for the toolboxes, in the metadata of the tool.
 
-Previous Work
-
 ## [Video Resource: Building geoprocessing tools with python](https://mediaspace.esri.com/media/t/1_mqpjjlpc)
 
 Noteworthy points:
 1. Using feature layer as the data type for the input parameter has advantages.
 2. Setting progressor
 
-## [Buffer process automation](https://github.com/NomitRwt/Arc-data-management/tree/main/Buffer_process_automation)
+## [Previous Work: Buffer process automation](https://github.com/NomitRwt/Arc-data-management/tree/main/Buffer_process_automation)
 
 We need to select poles located within certain distance from the road. There are different types of roads in the "Streets_Types.gdb" database. For each road type we "manually" measure the width of the road at 5 different locations using an esri basemap and create a "Buffer.csv" file containing all the values. The buffer name for all the files should match with the names of the road types present in the "Streets_Types.gdb".
 
@@ -32,3 +30,11 @@ The script requires following three files in the working directory (The folder i
 The rest of the process is done using arcpy.
 
 First for each road type we generate the buffer, depending on the values present in the CSV (The road width that was measured). Now we merge all the buffer into a single feature class and apply a spatial query to select all the poles located within a distance of 40 feet. A new field is added to the "Poles.gdb" layer depicting whether it is located within certain distance or not.
+
+## [Previous Work: Excel_to_shapefile](https://github.com/NomitRwt/Arc-data-management/tree/main/Excel_to_shapefile)
+
+Convert data from specific excel sheet to shapefile.
+
+## [Notes and Tutorials](https://github.com/NomitRwt/Arc-data-management/tree/main/Curriculum)
+
+Notes, tutorial and data.
