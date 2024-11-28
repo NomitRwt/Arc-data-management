@@ -18,6 +18,22 @@ Noteworthy points:
 1. Using feature layer as the data type for the input parameter has advantages.
 2. Setting progressor
 
+## [Video Resource: Introduction to Scripting Your WebGIS with ArcGIS API for Python](https://www.youtube.com/watch?v=o9x0dtNrGEU&list=PLGZUzt4E4O2JaOMx_XZc85VdMIrqLGaVf&index=2)
+
+Noteworthy points:
+1. Managing
+   - Searching and querrying items
+   - Roles
+   - Users
+   - Groups
+   - Items
+
+Deleting a user, all the items or groups need to be re-assigned.
+
+2. Creating buffers around forest fires to locate the facilities at risk, in arcgis pro notebooks. An interesting point is that jupyter notebooks can add content to the map which has already been displayed.
+3. Geo-analytics divides the task among different machines to analyse large dataset.
+4. Installing arcgis via conda.
+
 ## [Previous Work: Buffer process automation](https://github.com/NomitRwt/Arc-data-management/tree/main/Buffer_process_automation)
 
 We need to select poles located within certain distance from the road. There are different types of roads in the "Streets_Types.gdb" database. For each road type we "manually" measure the width of the road at 5 different locations using an esri basemap and create a "Buffer.csv" file containing all the values. The buffer name for all the files should match with the names of the road types present in the "Streets_Types.gdb".
