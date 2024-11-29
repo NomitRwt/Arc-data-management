@@ -51,6 +51,6 @@ First for each road type we generate the buffer, depending on the values present
 
 Convert data from specific excel sheet to shapefile.
 
-## [Notes and Tutorials](https://github.com/NomitRwt/Arc-data-management/tree/main/Curriculum)
+## [Notes, Use-cases and Tutorials](https://github.com/NomitRwt/Arc-data-management/tree/main/Curriculum)
 
 Notes, tutorial and data.
