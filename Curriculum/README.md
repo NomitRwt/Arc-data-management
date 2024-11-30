@@ -61,3 +61,6 @@ An example is using ArcPy to manage local data, adding it as layers to a map, an
 3. Spatial query
 4. Joins and relate
 5. Introduction to toolboxes
+
+# Colab Notebooks
+1. [Tutorial on pre-processing and analysis](https://colab.research.google.com/drive/1lFbcnte3Gk2aRkaJoMuNHO4w7d91Ryyv?usp=sharing)
