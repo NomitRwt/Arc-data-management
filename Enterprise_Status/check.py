@@ -1,9 +1,9 @@
-import requests
+import requests, os
 from datetime import datetime
 
 # Enter the username, password, portal url
-username = "username"
-password = "password"
+username = os.getenv("ARCGIS_USERNAME")
+password = os.getenv("ARCGIS_PASSWORD")
 portal_url = "portal_url"
 
 # URLs of individual services (add more if needed)
@@ -14,7 +14,7 @@ SERVICES_TO_CHECK = [
 ]
 
 # Optional Token (leave as None if not needed)
-TOKEN = generater_token(username, password, portal_url)  # Replace with actual token or call a function to get it
+TOKEN = generater_token(username, password, portal_url)
 
 # Log file location
 LOG_FILE = "C:/Logs/arcgis_individual_services_status_log.txt"
