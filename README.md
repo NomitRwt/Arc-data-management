@@ -51,6 +51,13 @@ First for each road type we generate the buffer, depending on the values present
 
 Convert data from specific excel sheet to shapefile.
 
+## [Previous Work: Unique Symbology Rendering](https://github.com/NomitRwt/Arc-data-management/tree/main/Unique_symbology_rendering)
+
+The script shows the symbology update part.
+1. Transformation of drawing files into vector format. Challenging part is to extract layer properties such as RGB, linetype, lineweight values from AutoCAD and use it as symbology in ArcGIS Pro.
+2. Made use of pyautocad to extract layer properties of the active drawing file instance.
+3. And "UniqueValueRenderer" object in arcpy to update the symbology for different fields in the attribute table.
+
 ## [Notes, Use-cases and Tutorials](https://github.com/NomitRwt/Arc-data-management/tree/main/Curriculum)
 
 Notes, tutorial and data.
