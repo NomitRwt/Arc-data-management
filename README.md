@@ -29,6 +29,6 @@ Python tool to convert data from specific excel sheet to shapefile.
 2. Made use of pyautocad to extract layer properties of the active drawing file instance.
 3. And "UniqueValueRenderer" object in arcpy to update the symbology for different fields in the attribute table.
 
-## [Trainnings](https://github.com/NomitRwt/Arc-data-management/tree/main/Curriculum)
+## [Trainings](https://github.com/NomitRwt/Arc-data-management/tree/main/Trainings)
 
 Also contain open source tool examples.
