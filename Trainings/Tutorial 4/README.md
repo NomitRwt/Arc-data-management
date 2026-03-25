@@ -1,4 +1,4 @@
-# Watershed Delineation
+# Raster analysis: Watershed Delineation
 
 ## Introduction
 Involves the following steps. [Available at esri's documentation.](https://support.esri.com/en-us/knowledge-base/how-to-create-a-watershed-model-using-hydrology-in-arcg-000023169)
