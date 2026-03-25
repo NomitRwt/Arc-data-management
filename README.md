@@ -1,38 +1,10 @@
 # Arc-data-management
-A repository containing notes and guides primary related to arcpy.
+A repository containing my previous work, notes and trainings given.
 
 ## [Configure vscode with arcgis interpreter](https://resources.esri.ca/getting-technical/how-to-configure-visual-studio-code-with-arcgis-pro-s-python-environment)
 Great resource if you want to run standalone scripts or build using the arcgis environment. Can also look at the following path if you can't find the interpreter.
 
 C:\Users\someuser\AppData\Local\Programs\ArcGIS\Pro\bin\Python\envs\arcgispro-py3.
-
-## [Video Resource: Building geoprocessing tools in arcgis](https://mediaspace.esri.com/media/t/1_z44wd2wj)
-
-Noteworthy points:
-1. Sharing geoprocessing tools across organisation using arcgis online.
-2. Adding input messages for the toolboxes, in the metadata of the tool.
-
-## [Video Resource: Building geoprocessing tools with python](https://mediaspace.esri.com/media/t/1_mqpjjlpc)
-
-Noteworthy points:
-1. Using feature layer as the data type for the input parameter has advantages.
-2. Setting progressor
-
-## [Video Resource: Introduction to Scripting Your WebGIS with ArcGIS API for Python](https://www.youtube.com/watch?v=o9x0dtNrGEU&list=PLGZUzt4E4O2JaOMx_XZc85VdMIrqLGaVf&index=2)
-
-Noteworthy points:
-1. Managing
-   - Searching and querrying items
-   - Roles
-   - Users
-   - Groups
-   - Items
-
-Deleting a user, all the items or groups need to be re-assigned.
-
-2. Creating buffers around forest fires to locate the facilities at risk, in arcgis pro notebooks. An interesting point is that jupyter notebooks can add content to the map which has already been displayed.
-3. Geo-analytics divides the task among different machines to analyse large dataset.
-4. Installing arcgis via conda.
 
 ## [Previous Work: Buffer process automation](https://github.com/NomitRwt/Arc-data-management/tree/main/Buffer_process_automation)
 
@@ -49,15 +21,14 @@ First for each road type we generate the buffer, depending on the values present
 
 ## [Previous Work: Excel_to_shapefile](https://github.com/NomitRwt/Arc-data-management/tree/main/Excel_to_shapefile)
 
-Convert data from specific excel sheet to shapefile.
+Python tool to convert data from specific excel sheet to shapefile.
 
 ## [Previous Work: Unique Symbology Rendering](https://github.com/NomitRwt/Arc-data-management/tree/main/Unique_symbology_rendering)
 
-The script shows the symbology update part.
 1. Transformation of drawing files into vector format. Challenging part is to extract layer properties such as RGB, linetype, lineweight values from AutoCAD and use it as symbology in ArcGIS Pro.
 2. Made use of pyautocad to extract layer properties of the active drawing file instance.
 3. And "UniqueValueRenderer" object in arcpy to update the symbology for different fields in the attribute table.
 
-## [Notes, Use-cases and Tutorials](https://github.com/NomitRwt/Arc-data-management/tree/main/Curriculum)
+## [Trainnings](https://github.com/NomitRwt/Arc-data-management/tree/main/Curriculum)
 
-Notes, tutorial and data.
+Also contain open source tool examples.
