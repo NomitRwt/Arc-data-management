@@ -1,0 +1,6 @@
+Precision/Recall/F1 score
+Bias Variance Tradeoff
+Kmeans/Random Forest/Support Vector Machine
+Radiometric Resolution
+From Leetcode:
+  New floor division operator: //
