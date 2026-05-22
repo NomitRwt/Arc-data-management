@@ -1,6 +1,24 @@
 Precision/Recall/F1 score
+
+Definition of Precision/Recall/F1 Score
+
 Bias Variance Tradeoff
-Kmeans/Random Forest/Support Vector Machine
-Radiometric Resolution
+Variance: Overfitting
+Bias: Underfitting
+
+Kmeans/Decision Trees/Support Vector Machine
+Kmeans: 
+
+Radiometric Resolution:
+The bit value in terms of a greyscale
+
 From Leetcode:
   New floor division operator: //
+  Gregorian calender problem
+  List comprehension from multiple elements
+
+From Google Colab:
+  Filling empty values in the data table: "df[x].fillna(df[x].mean(), inplace=True)"
+  Combining tables: "df_new[df_x, df_y, on="column_name", how="inner"]"
+  Aljebraic operations: "df_[z] = df[x] +-*/ df[y]"
+  One Hot Encoding: is performed by calling the pandas object using the dataframe
