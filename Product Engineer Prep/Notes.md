@@ -10,35 +10,36 @@ Definition of Precision/Recall/F1 Score
 Variance: Overfitting
 Bias: Underfitting
 
+### Hypothesis testing
+1. Given an event and a "assumed" probability: An instagram story has 1/2 chance of getting a like
+2. H_null: p = 0.5
+3. H_alternate: p<0.5
+4. You get 10 likes on 100 posts
+5. Alternate is correct
+
 ### Algorithms
 
 Supervised
-Linear Regression: House prices
-Logistic Regression: Binary classification
-Decision Trees and Random Forests: Credit Scoring Loan Approval
-Support vector machine: Find the best fit hyperplane
+1. Linear Regression: House prices
+2. Logistic Regression: Binary classification
+3. Decision Trees and Random Forests: Credit Scoring Loan Approval
+4. Support vector machine: Find the best fit hyperplane
 
 Unsupervised
-K-means clustering
+1. K-means clustering
 
-Reinforcement Learning
-Trial and Error approach by reward and penalty
+Reinforcement Learning: Trial and Error approach by reward and penalty
 
-Deep Learning
-CNN and RNN, convolution and recurrent
-
-### Hypothesis testing
-
+Deep Learning: CNN and RNN, convolution and recurrent
 
 ## Python
 From Leetcode:
-  New floor division operator: //
-  Gregorian calender problem
-  List comprehension from multiple elements
+1. New floor division operator: //
+2. Gregorian calender problem
+3. List comprehension from multiple elements
 
 From Google Colab:
-  Filling empty values in the data table: "df[x].fillna(df[x].mean(), inplace=True)"
-  Combining tables: "df_new[df_x, df_y, on="column_name", how="inner"]"
-  Aljebraic operations: "df_[z] = df[x] +-*/ df[y]"
-  One Hot Encoding: is performed by calling the pandas object using the dataframe
-  
+1. Filling empty values in the data table: "df[x].fillna(df[x].mean(), inplace=True)"
+2. Combining tables: "df_new[df_x, df_y, on="column_name", how="inner"]"
+3. Aljebraic operations: "df_[z] = df[x] +-*/ df[y]"
+4. One Hot Encoding: is performed by calling the pandas object using the dataframe
