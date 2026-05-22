@@ -42,4 +42,4 @@ From Google Colab:
 1. Filling empty values in the data table: "df[x].fillna(df[x].mean(), inplace=True)"
 2. Combining tables: "df_new[df_x, df_y, on="column_name", how="inner"]"
 3. Aljebraic operations: "df_[z] = df[x] +-*/ df[y]"
-4. One Hot Encoding: is performed by calling the pandas object using the dataframe
+4. One Hot Encoding: Call getdummies method on the pandas object with the dataframe, column as the arguments
